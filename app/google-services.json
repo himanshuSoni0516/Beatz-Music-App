@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031005139003",
+    "project_id": "beatz-a869e",
+    "storage_bucket": "beatz-a869e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031005139003:android:cb6122d8c157e5c5d22c1e",
+        "android_client_info": {
+          "package_name": "com.example.beatz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZXSGc3-Iv0-XCKEctX0IM5srtGvH8oxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
