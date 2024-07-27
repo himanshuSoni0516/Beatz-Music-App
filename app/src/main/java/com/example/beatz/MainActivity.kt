@@ -57,6 +57,10 @@ class MainActivity : AppCompatActivity() {
                     logout()
                     true
                 }
+                R.id.add_category -> {
+                    startActivity(Intent(this,AddCategoryActivity::class.java))
+                    true
+                }
 
             }
             false

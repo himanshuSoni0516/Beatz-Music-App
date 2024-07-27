@@ -40,7 +40,8 @@ android {
 }
 
 dependencies {
-
+// Import the BoM for the Firebase platform
+    implementation(platform(libs.firebase.bom))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -55,6 +56,7 @@ dependencies {
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.exoplayer.dash)
     implementation(libs.androidx.media3.ui)
-
+    implementation (libs.firebase.storage)
 
 }
+

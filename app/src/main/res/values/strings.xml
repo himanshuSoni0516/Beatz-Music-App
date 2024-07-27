@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Beatz</string>
+    <string name="upload_jpeg_png_pdf_max_size_5_mb">Upload image size less than 5mb</string>
 </resources>

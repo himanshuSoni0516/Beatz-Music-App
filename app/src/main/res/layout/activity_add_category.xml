@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Name"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_textbg"
+            android:id="@+id/txtCategoryName"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Url"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:inputType="text"
+            android:background="@drawable/edit_textbg"
+            android:id="@+id/txtCategoryUrl"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <ImageView
+            android:id="@+id/imgCategoryImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:src="@drawable/baseline_add_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click for adding category photo"/>
+
+
+
+        <Button
+            android:id="@+id/btnAddCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FEC701"
+            android:text="Add Category"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:cornerRadius="10dp" />
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="60dp"
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            android:indeterminateTint="@color/white"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
